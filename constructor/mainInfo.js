@@ -12,7 +12,8 @@ function Person(name) {
 // 1. It creates an object inside the function itself and call it this
 // 2. And then returns this 
 // That's the magic of constructor function that we wrote below
-const sina = new Person('Sina')
+const sina = new Person('Sina');
+const ben = new Person('Ben');
 
-console.log(sina);
 console.log(sina.talk());
+
