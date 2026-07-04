@@ -34,4 +34,8 @@ const me = createPerson('Sina')
 // talk() function now is inside prototype object
 console.log(me)
 console.log(me.talk()) // Hello, my name is Sina
+
+// ƒ talk() {
+//   return `Hello, my name is ${this.name}`
+// }
 console.log(me.__proto__.talk)

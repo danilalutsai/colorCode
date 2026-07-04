@@ -24,6 +24,7 @@ console.log(talk()) // The output is global window object
 
 // Reuse the function for multiple objects
 function talking() {
+  // We made surname optional if there is no surname no undefined returned
   return `I am ${this.name} ${this.surname ? ' ' + this.surname : ''}`
 }
 

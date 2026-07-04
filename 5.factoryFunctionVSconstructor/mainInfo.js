@@ -44,11 +44,4 @@ console.log(me.talk())
 console.log(you.talk())
 console.log(me)
 
-console.log(Object.prototype === me.__proto__)
 
-// After assigning speak to prototype of Object now in instances we have __proto__: speak()
-Object.prototype.speak = function() {
-  return 'Oh Kheelooo!'
-}
-
-console.log(me.speak()) // Oh Kheelooo

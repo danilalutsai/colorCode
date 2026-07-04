@@ -19,4 +19,6 @@ const me = {
 const meTalk = talk.bind(me)
 console.log(meTalk()) // I am Danila
 
-console.log(talk.bind(me)() === talk.call(me))
+// Call built in functions method does the same as bind but it 
+// calls the function straight away
+console.log(talk.bind(me)() === talk.call(me)) // true

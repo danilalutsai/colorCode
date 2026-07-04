@@ -7,4 +7,4 @@ function Person(n) {
 }
 
 const me = new Person('Danila')
-me.talk()
+me.talk() // It refers still to the Object
