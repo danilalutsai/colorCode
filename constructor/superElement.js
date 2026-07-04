@@ -17,3 +17,4 @@ const myElements = array.map(function(item) {
 })
 
 console.log(myElements);
+
