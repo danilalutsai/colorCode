@@ -13,7 +13,7 @@ function createElement(type, text, color) {
     }
   }
 }
-
+// Some comment here
 const h1 = createElement('h1', 'Hey guys', 'red');
 console.log(h1);
 h1.setText('Goodbye fellas!');

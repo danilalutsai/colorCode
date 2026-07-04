@@ -21,4 +21,21 @@ console.log(me.name);
 console.log(me.talk());
 
 me.name = 'San';
-console.log(me.talk()); // Now is wrong the function because it prints My name is San
+console.log(me.talk()); 
+
+// Factory function cons
+// 1. Simple - it is just a function
+// 2. No duplicates
+// 3. Data privacy
+
+function personFactory(name) {
+  return {
+    name,
+    talk() {
+      return `Hello, I am ${name}`;
+    }
+  }
+}
+
+const me1 = personFactory('Danila');
+console.log(me1.talk());
