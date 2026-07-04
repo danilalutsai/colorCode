@@ -12,6 +12,8 @@ function Person(name) {
 // 1. It creates an object inside the function itself and call it this
 // 2. And then returns this 
 // That's the magic of constructor function that we wrote below
+
+// new means Object instanciation (creating a new instance of a class)
 const sina = new Person('Sina');
 const ben = new Person('Ben');
 
