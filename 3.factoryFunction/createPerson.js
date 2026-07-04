@@ -12,3 +12,4 @@ const lisa = createPerson('Lisa');
 
 daniel.talk();
 lisa.talk();
+

@@ -31,3 +31,4 @@ console.log(you.talk()) // Screaming
 // And most importantly the function or whatever you wrote with this gets copied directly 
 // Into that instance (a child object)
 console.log(you) // Person (talk(f)) -> __proto__ -> Object
+

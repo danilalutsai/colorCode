@@ -19,6 +19,7 @@ const me = {
   talk
 }
 
+
 const you = {
   name: 'Nikita',
   talk

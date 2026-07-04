@@ -10,4 +10,12 @@ Person.age = 40
 // We modified blueprint age property but didn't modify the instance age itself
 
 
+// Age 40 is remaining in __proto__ as age but Javascript finds first age as 
+// property in me instance and returns first found item
 console.log(me.age) // 12
+console.log(Person.age) // Undefined 
+
+// Properties - things I have
+// Behaviour (methods) - things I do
+
+
