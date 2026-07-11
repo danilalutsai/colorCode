@@ -26,3 +26,4 @@ function clickHandlerCorret(size) {
 document.getElementById("size-16").onclick = clickHandler(12)
 document.getElementById("size-16").onclick = clickHandler(14)
 document.getElementById("size-16").onclick = clickHandler(16)
+
