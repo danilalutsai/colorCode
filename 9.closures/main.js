@@ -25,3 +25,4 @@ const nikita = human("Nikita")
 // Closures remember the outer function scope even after creation time
 danila.sayHi()
 nikita.howYouFeel()
+
